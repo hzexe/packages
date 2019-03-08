@@ -230,7 +230,7 @@ define Build/Configure
 			--with-cc="$(TARGET_CC)" \
 			--with-cc-opt="$(TARGET_CPPFLAGS) $(TARGET_CFLAGS)" \
 			--with-ld-opt="$(TARGET_LDFLAGS)" \
-			--without-http_upstream_zone_module \
+			--without-http_upstream_zone_module --with-http_secure_link_module \
 	)
 endef
 
